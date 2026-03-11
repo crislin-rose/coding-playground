@@ -58,7 +58,7 @@ function dropdownFun() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "jon you are my pet",
+  "Descartes' a demon",
   "garfield was in the oven",
   "pizza is a dream",
   "hand over the cheese",

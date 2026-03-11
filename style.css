@@ -11,6 +11,7 @@ body {
     pink,
     #cbf1e4
   ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
+  background-image: url("./img/quiet-me.gif");
   background-image: cover;
 }
 
@@ -96,8 +97,8 @@ h5 {
 
 /* Style the card for text messages */
 .cardText {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  background-image: url("./img/txt-msg.png");
+  box-shadow: 0 4px 8px 0 rgba(24, 24, 24, 0.2); /* this adds the "card" effect */
+  background-image: url("./img/drunk-text.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   padding: 20px;
@@ -105,7 +106,7 @@ h5 {
   padding-bottom: 450px;
   line-height: 0.8em;
   border-radius: 10px 10px 10px 10px;
-  background-color: white;
+  background-color: black;
   font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -406,38 +407,26 @@ img {
   z-index: -2;
 }
 
-.bubble:after {
-  border: 8px solid transparent;
-  border-bottom-color: #d2f4fe;
-  bottom: 1px;
-  left: -5px;
-}
-
 .bubble--alt {
   background-image: linear-gradient(
     180deg,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
+    rgb(49, 205, 89) 100%
   );
   background-image: -o-linear-gradient(
     bottom,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
+    rgb(49, 205, 89) 100%
   );
   background-image: -moz-linear-gradient(
     bottom,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
+    rgb(49, 205, 89) 100%
   );
   background-image: -webkit-linear-gradient(
     bottom,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
+    rgb(49, 205, 89) 100%
   );
   background-image: -ms-linear-gradient(
     bottom,
-    rgb(172, 228, 75) 25%,
-    rgb(122, 205, 71) 100%
+    rgb(49, 205, 89) 100%
   );
   background-image: -webkit-gradient(
     linear,
@@ -456,12 +445,6 @@ img {
   right: -7px;
 }
 
-.bubble--alt:after {
-  border-bottom-color: #ace44b;
-  border-radius: 20px / 10px;
-  left: auto;
-  right: -5px;
-}
 /* end of bubble code */
 
 #poem > div {
