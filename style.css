@@ -11,7 +11,7 @@ body {
     pink,
     #cbf1e4
   ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
-  background-image: url("./img/quiet-me.gif");
+  background-image: url("./img/city-apartment-windows.jpg");
   background-image: cover;
 }
 
@@ -97,7 +97,7 @@ h5 {
 
 /* Style the card for text messages */
 .cardText {
-  box-shadow: 0 4px 8px 0 rgba(24, 24, 24, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(142, 142, 142, 0.444); /* this adds the "card" effect */
   background-image: url("./img/drunk-text.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -160,7 +160,7 @@ h5 {
   text-align: left;
   background-color: #000000;
   background-image: url("./img/catBG.gif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
-  color: #68d911;
+  color: #ffffff;
   font-family: "Source Code Pro", monospace;
   font-size: 14px; 
 }
@@ -376,9 +376,6 @@ img {
   /* vendor rules */
   border-radius: 20px;
   /* vendor rules */
-  box-shadow: inset 0 5px 5px rgba(255, 255, 255, 0.4),
-    0 1px 3px rgba(0, 0, 0, 0.2);
-  /* vendor rules */
   box-sizing: border-box;
   clear: both;
   float: left;
@@ -432,10 +429,12 @@ img {
     linear,
     left bottom,
     left top,
-    color-stop(0.25, rgb(172, 228, 75)),
-    color-stop(1, rgb(122, 205, 71))
+    color-stop(1, rgb(49, 205, 89))
   );
+  color: white;
   float: right;
+box-shadow: inset 0 5px 5px rgb(34, 169, 68),
+    0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .bubble--alt:before {
