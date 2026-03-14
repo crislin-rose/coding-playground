@@ -43,7 +43,7 @@ function addText(content) {
 function dropdownFun() {
   var x = document.getElementById("subject").value;
   if (x === "flighty") {
-    addText("🛩️🐦🦅🦋🌪️💭");
+    addText("yee yee");
   } else if (x === "vague") {
     addText("🥱👽🐙🪼🌘");
   } else if (x === "joyful") {
