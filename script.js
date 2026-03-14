@@ -12,12 +12,13 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
-  "Now discoverable as '[—]'.",
+  "You are not connected.",
+  "Make sure your phone is turned on and in range.",
+  "Now discoverable as 'Lonely'.",
   "Connection unsuccessful.",
   "Your connection is unstable.",
   "Out of range.",
+  "Your lover is out of range.",
   "Unexpected device.",
   "Bad connection.",
 ];
