@@ -157,15 +157,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "You,Lovers,I,".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "drink,kiss,fuck,kneel in,regret,LOVE,bruise,snort,suck, blow,lick, leave".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "the bed,the couch,secret alleyways,church,a lit cigarette,moonshine".split(
       ","
     );
 // set up the counter
@@ -217,7 +217,7 @@ function processPoem() {
   } else {
     addLine();
   }
-  if (counter > 15) {
+  if (counter > 5) {
     removeFirstLine();
   }
   setTimeout(processPoem, 1000);
