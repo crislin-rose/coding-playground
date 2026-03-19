@@ -13,13 +13,20 @@ var speed = 50;
 //function for network error message
 const sent1 = [
   "You are not connected.",
-  "Make sure your phone is turned on and in range.",
+  "Make sure 'Your Lover' is turned on and in range.",
+  "'Your Lover' is not in range.",
   "Now discoverable as 'Lonely'.",
+  "Now discoverable as 'Heartbroken'.",
+  "No connection detected.",
   "Connection unsuccessful.",
+  "Your connection is weak.",
   "Your connection is unstable.",
-  "Out of range.",
-  "Your lover is out of range.",
-  "Unexpected device.",
+  "Your connection has always been unstable.",
+  "Your connection will always be unstable.",
+  "'Lover' is out of range.",
+  "Make sure 'Your Lover' has their Bluetooth turned on.",
+  "Make sure 'Your Lover' is not with 'Someone Else'.",
+  "Try Again." , 
   "Bad connection.",
 ];
 
@@ -106,13 +113,18 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "asutoras", 
+  "angela.xmainx",
+  "ana_d_armas",
+  "amyxnguyen",
+  "alexcosani",
+  "alexademie",
+  "audredoll",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "ben.mustard",
+  "brigittemalone",
+  "best friend from high school who left me on read",
+  "bl4ckst4r",
 
   "can i seek to vary my family court order",
   "ccs has no cctv",

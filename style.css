@@ -58,7 +58,7 @@ h5 {
   background-image: url("./img/inebriated-makeout2\ Large.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+  color: rgb(252, 231, 246);
   text-align: center;
   font-family: "codystar";
   font-size: 30px;
@@ -125,8 +125,8 @@ h5 {
   background-repeat: no-repeat;
   text-align: center;
   font-size: 28px;
-  color: white;
-  font-family: "Kalam", cursive;
+  color: rgb(252, 231, 246);
+  font-family: "arial black", sans-serif;
 }
 
 /* Style the card for the haiku function */
@@ -139,8 +139,8 @@ h5 {
   background-image: url("./img/wine-bottles1.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
-  color: rgb(255, 255, 255);
-  text-shadow: 0 1px 1px rgba(201, 200, 200, 0.7);
+  color: rgb(254, 254, 254);
+  text-shadow: 0 1px 1px rgb(64, 42, 58);
   font-family: "PT Serif", serif; /* font for <p> text */
   font-size: 14px;
   text-align: center;
@@ -157,7 +157,7 @@ h5 {
   text-align: left;
   background-image: url("./img/Instagram-search1.PNG");
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   background-size: cover;
   background-repeat: no-repeat; /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
 }
@@ -171,7 +171,7 @@ h5 {
   text-align: left;
   background-image: url("./img/sidewalk-night.jpeg");/* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
   background-size: cover;
-  color: #ffffff;
+  color: rgb(252, 231, 246);
   font-family: "Source Code Pro", monospace;
   font-size: 14px; 
 }
