@@ -161,11 +161,11 @@ const subjects =
       ","
     ),
   verbs =
-    "drink,kiss,fuck,kneel in,regret,LOVE,bruise,snort,suck, blow,lick, leave".split(
+    "drink,kiss,fuck,kneel in,regret,LOVE,bruise,snort,suck, blow,lick,leave,beg".split(
       ","
     ),
   objects =
-    "the bed,the couch,secret alleyways,church,a lit cigarette,moonshine".split(
+    "the bed,the couch,secret alleyways,church,a lit cigarette,moonshine,a club".split(
       ","
     );
 // set up the counter
