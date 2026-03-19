@@ -55,7 +55,7 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("./img/inebriated-makeout2\ Large.jpeg");
+  background-image: url("./img/inebriated-makeout2.webp");
   background-size: cover;
   background-repeat: no-repeat;
   color: rgb(252, 231, 246);
@@ -124,7 +124,7 @@ h5 {
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
-  font-size: 28px;
+  font-size: 16px;
   color: rgb(252, 231, 246);
   font-family: "arial black", sans-serif;
 }
