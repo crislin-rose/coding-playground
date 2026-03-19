@@ -17,10 +17,8 @@ body {
 
 /* font used for dropdown menu - edit this*/
 h2 {
-  font-family: "Kalam", cursive;
-  text-shadow: 1px 1px white;
-  font-size: 30px;
-  font-style: bold;
+  font-family: "Mr De Haviland", cursive;
+  font-size: 50px;
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
@@ -57,12 +55,13 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("./img/clouds.jpg");
+  background-image: url("./img/inebriated-makeout2\ Large.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  color: white;
   text-align: center;
-  font-family: "PT Serif", serif;
-  font-size: 1.5em;
+  font-family: "codystar";
+  font-size: 30px;
 }
 
 /* Style the card for phone error alerts (do not edit)*/
