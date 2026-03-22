@@ -90,8 +90,8 @@ h5 {
   background-repeat: no-repeat;
   min-height: 375px;
   color: white;
-  font-family: "Source Code Pro", monospace;
-  font-size: 12px;
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 
 /* Style the card for text messages */
@@ -140,7 +140,7 @@ h5 {
   background-size: contain;
   background-repeat: no-repeat;
   color: rgb(254, 254, 254);
-  text-shadow: 0 1px 1px rgb(64, 42, 58);
+  text-shadow: 0 1px 1px rgb(38, 25, 34);
   font-family: "PT Serif", serif; /* font for <p> text */
   font-size: 14px;
   text-align: center;

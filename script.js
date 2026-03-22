@@ -117,29 +117,37 @@ const textInput = document.getElementById("text-input");
 const words = [
   "asutoras", 
   "angela.xmainx",
-  "ana_d_armas",
+  "asshole who ghosted me",
   "amyxnguyen",
-  "alexcosani",
-  "alexademie",
-  "audredoll",
+  "audedoll",
 
   "ben.mustard",
   "brigittemalone",
   "best friend from high school who left me on read",
   "bl4ckst4r",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "conidi.s.01",
+  "c.nguyen",
+  "close friend who is now a stranger",
+  "c4ndy.crushx",
+  "cousin who i haven't spoken to in years",
 
-  "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
+  "danielle.lee",
+  "delu.kmm",
+  "drug dealer with good weed",
+  "dom._.tate",
+  "danaeyney",
 
-  "earliest memories as a child",
-  "emotional manipulation signs",
 
-  "fridge magnets",
+  "emma.chen",
+  "emma.hewitt_",
+  "ex-girlfriend who i still have feelings for",
+  "emchee",
+
+  "feddononme",
+  "fawningonyou",
+  "friend who wasn't really a friend",
+  "f4nt4sisingabtU",
 ];
 //search function (do not edit)
 function changeText(e) {
