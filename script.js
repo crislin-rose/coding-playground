@@ -14,11 +14,9 @@ var speed = 50;
 const sent1 = [
   "You are not connected.",
   "Make sure 'Your Lover' is turned on and in range.",
-  "'Your Lover' is not in range.",
   "Now discoverable as 'Lonely'.",
-  "Now discoverable as 'Heartbroken'.",
   "No connection detected.",
-  "Connection unsuccessful.",
+  "Connection Unsuccessful.",
   "Your connection is weak.",
   "Your connection is unstable.",
   "Your connection has always been unstable.",
@@ -27,7 +25,7 @@ const sent1 = [
   "Make sure 'Your Lover' has their Bluetooth turned on.",
   "Make sure 'Your Lover' is not with 'Someone Else'.",
   "Try Again." , 
-  "Bad connection.",
+  "Bad Connection.",
 ];
 
 const buttonRetry = document.getElementById("button-network");

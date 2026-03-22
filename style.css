@@ -16,6 +16,7 @@ body {
 }
 
 /* font used for dropdown menu - edit this*/
+
 h2 {
   font-family: "Mr De Haviland", cursive;
   font-size: 50px;
@@ -33,8 +34,8 @@ h3 {
 
 /* font used for title of haiku - edit this */
 h4 {
-  font-family: "Zen Dots", cursive;
-  font-size: 22px;
+  font-family: "limelight", cursive;
+  font-size: 30px;
   font-style: bold;
   text-align: center;
 }
@@ -132,11 +133,12 @@ h5 {
 /* Style the card for the haiku function */
 .cardHaiku {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 10px 20px;
+  padding: 50px 60px;
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  background-image: url("./img/wine-bottles1.jpeg");
+  background-image: url("./img/wine-bottles1.jpeg"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   color: rgb(254, 254, 254);
