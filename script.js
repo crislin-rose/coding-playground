@@ -92,18 +92,12 @@ function changeResults() {
   const paragraphFour = document.getElementById("haiku-2-1");
   const paragraphFive = document.getElementById("haiku-2-2");
   const paragraphSix = document.getElementById("haiku-2-3");
-  const paragraphSeven = document.getElementById("haiku-3-1");
-  const paragraphEight = document.getElementById("haiku-3-2");
-  const paragraphNine = document.getElementById("haiku-3-3");
   paragraph.innerText = getRandomFromList(fiveSyllables);
   paragraphTwo.innerText = getRandomFromList(sevenSyllables);
   paragraphThree.innerText = getRandomFromList(fiveSyllables);
   paragraphFour.innerText = getRandomFromList(fiveSyllables);
   paragraphFive.innerText = getRandomFromList(sevenSyllables);
   paragraphSix.innerText = getRandomFromList(fiveSyllables);
-  paragraphSeven.innerText = getRandomFromList(fiveSyllables);
-  paragraphEight.innerText = getRandomFromList(sevenSyllables);
-  paragraphNine.innerText = getRandomFromList(fiveSyllables);
 }
 //end of haiku function
 
@@ -146,6 +140,8 @@ const words = [
   "fawningonyou",
   "friend who wasn't really a friend",
   "f4nt4sisingabtU",
+
+  "g"
 ];
 //search function (do not edit)
 function changeText(e) {
