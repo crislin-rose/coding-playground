@@ -66,22 +66,30 @@ function dropdownFun() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "Descartes' a demon",
-  "garfield was in the oven",
-  "pizza is a dream",
-  "hand over the cheese",
-  "parmesean is life",
-  "i am so hungry",
-  "where did odie go",
-  "get it your damn self",
-  "obey me human",
+  "Inebriated",
+  "you never loved me",
+  "performative male",
+  "touch me right there, please",
+  "tell me you love me",
+  "starving from your love",
+  "tell me i'm pretty",
+  "whisper filthy lies",
+  "on my knees for you",
+  "i'm so desperate",
+  "leaving me on read",
+  "tell me i'm special",
+  "am i a good girl?"
 ];
 const sevenSyllables = [
-  "cheese makes everything better",
-  "the noodles must be wavey",
-  "nothing left to do but sleep",
-  "thinking about lasagne",
-  "yuk, no i don't want salad",
+  "let me call you daddy",
+  "i'm so lonely without you",
+  "tell me i belong to you",
+  "drunk off a Marlboro red",
+  "crossfaded from vodka shots",
+  "i'm so horny for your touch",
+  "let me love you completely",
+  "i won't see sunlight on skin",
+  "midnight ballet piourette",
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
@@ -140,8 +148,108 @@ const words = [
   "fawningonyou",
   "friend who wasn't really a friend",
   "f4nt4sisingabtU",
+  "first kiss",
 
-  "g"
+  "girlinblue",
+  "gabrielle.zen",
+  "glittery.ghost",
+  "guy who i thought liked me but actually just wanted to be friends",
+  "gazel.hreen",
+  
+  "hannah._.lee",
+  "hunter.smith",
+  "horrible ex-boyfriend",
+  "h4rdly.human",
+  "henrykenn.",
+
+  "_itsmejessica",
+  "idokie",
+  "idiot who cheated on me",
+
+  "juliaphan",
+  "justinexpark",
+  "justinturner_",
+  "jackandthebean",
+  "jesus worshipper",
+  
+  "karenxnguyen",
+  "kev1n.l33",
+  "kissed and told",
+  "kirby.c",
+
+  "lilithxoxo",
+  "l14mch3stnut",
+  "lost love from summer camp",
+  "lillies.drayton",
+
+  "mass.imo",
+  "my ex-best friend who still stalks me",
+  "michaelnguy",
+
+  "nathan.lee",
+  "nathanxnguyen",
+  "natal1a.nun",
+  
+  "oliviawright056",
+  "olivia.hewitt",
+  "old friend who i thought was a friend but actually just wanted to use me",
+  "oliver.tweest",
+
+  "peter.park",
+  "peterpiperpickedap3pper",
+  "primerex",
+  "person who i met at a club one night",
+
+  "quinnxnguyen",
+  "quash123",
+  "qiqi.wt",
+  "queer awakening",
+
+  "rosette.christian",
+  "rach_elle03",
+  "roman.patrick",
+  "random hookup from a party",
+  "regretful one night stand",
+
+  "sarahdollface",
+  "sean.__",
+  "soulmate who will never be mine",
+  "s4tanxsamosa",
+
+  "taylor.smith",
+  "taylarx.xtran",
+  "the one that got away",
+  "the one who got away's new partner",
+  "tait.abigail",
+
+  "ultra.violet",
+  "unrequited love",
+  "user1234321",
+  "ugly ex-boyfriend",
+
+  "vicky.chen",
+  "vicky.ngo",
+  "virgin who won't leave me alone",
+  "val._.valentinex",
+  "v4mpires4us",
+
+  "wright_x_nathaniel",
+  "warton.smith05",
+  "wasted potential hookup",
+  "wasted potential relationship",
+  "william.l33",
+
+  "x_christina.chi_x",
+  "xavier.nguyen01",
+  "xhaniee3",
+
+  "_yours.truly_",
+  "yolo.ast8a",
+  "yng.ho3",
+
+  "zacharysonder",
+  "zakzakgoose",
+  "zoee.beardley",
 ];
 //search function (do not edit)
 function changeText(e) {
@@ -177,11 +285,11 @@ const subjects =
       ","
     ),
   verbs =
-    "drink,kiss,fuck,kneel in,regret,LOVE,bruise,snort,suck, blow,lick,leave,beg".split(
+    "drink,kiss,fuck,kneel in,regret,LOVE,bruise,snort,suck,blow,lick,leave,beg".split(
       ","
     ),
   objects =
-    "the bed,the couch,secret alleyways,church,a lit cigarette,moonshine,a club".split(
+    "the bed,the couch,secret alleyways,church,a lit cigarette,moonshine,a club, daylight, midnight".split(
       ","
     );
 // set up the counter

@@ -126,26 +126,25 @@ h5 {
   background-repeat: no-repeat;
   text-align: center;
   font-size: 16px;
-  color: rgb(252, 231, 246);
+  color: rgb(246, 223, 239);
   font-family: "helvetica", sans-serif;
 }
 
 /* Style the card for the haiku function */
 .cardHaiku {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 50px 60px;
+  padding: 45px 60px;
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
-  text-align: center;
   background-image: url("./img/wine-bottles1.jpeg"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  color: rgb(254, 254, 254);
-  text-shadow: 0 1px 1px rgb(31, 4, 23);
+  color: rgb(250, 245, 249);
+  text-shadow: 0 1px 1px rgb(111, 0, 0);
+  text-align: center;
   font-family: "PT Serif", serif; /* font for <p> text */
   font-size: 14px;
-  text-align: center;
 }
 
 /* Style the card for the search results */
