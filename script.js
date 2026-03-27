@@ -69,7 +69,7 @@ const fiveSyllables = [
   "Inebriated",
   "you never loved me",
   "performative male",
-  "touch me right there, please",
+  "touch me right there, daddy",
   "tell me you love me",
   "starving from your love",
   "tell me i'm pretty",
@@ -81,7 +81,7 @@ const fiveSyllables = [
   "am i a good girl?"
 ];
 const sevenSyllables = [
-  "let me call you daddy",
+  "beg me to call you daddy",
   "i'm so lonely without you",
   "tell me i belong to you",
   "drunk off a Marlboro red",
